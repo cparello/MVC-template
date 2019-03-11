@@ -1,1 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea/rips/
+.idea/sonarlint/
+.idea/workspace.xml
+html/app/helpers/
+html/public/img/
