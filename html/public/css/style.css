@@ -1,0 +1,14 @@
+body {
+    background: #d7ecff;
+}
+
+header {
+    height: 100px;
+    border: 1px solid black;
+}
+
+footer {
+    height: 100px;
+    border: 1px solid black;
+    bottom: 0px;
+}
