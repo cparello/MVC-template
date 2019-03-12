@@ -8,6 +8,7 @@
 
 class Pages extends Controller
 {
+
     public function __construct()
     {
 //        echo "pages loaded";
@@ -16,7 +17,14 @@ class Pages extends Controller
 
     public function index()
     {
-        $data = ['title' => 'INDEX'];
+        $posts = $this->postModel->getPosts();
+
+        $data = [
+            'title' => 'INDEX',
+            'posts' => $posts
+        ];
+
+
         $this->view('pages/index', $data);
     }
 
